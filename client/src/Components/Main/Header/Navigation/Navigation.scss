@@ -1,0 +1,28 @@
+@import '../../../../index.scss';
+
+.nav {
+  &-list {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  &-item {
+    color: $white;
+    transition: .7s;
+    cursor: pointer;
+    @extend %normal-size;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    &-list {
+      display: none;
+    }
+  }
+  
+}

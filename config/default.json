@@ -1,0 +1,4 @@
+{
+  "jwtSecret": "magic-tutor-jwtToken",
+  "mongoUri": "mongodb://magic-tutor:23234141Qwe@ds261116.mlab.com:61116/heroku_042p2qwf"
+}

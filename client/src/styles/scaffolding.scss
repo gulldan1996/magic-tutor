@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+button:hover,
+button:focus,
+a:hover,
+a:focus {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
