@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.scss";
 import { HashRouter as Router } from "react-router-dom";
-// import { Provider } from "react-redux";
-// import { store } from "./redux/createStore";
+import { Provider } from "react-redux";
+import { store } from "./redux/createStore";
 import Main from "./pages/Main";
 
 const App = () => {
   return (
     <Router>
-      {/* <Provider store={store}> */}
+      <Provider store={store}>
         <Main />
-      {/* </Provider> */}
+      </Provider>
     </Router>
   );
 }

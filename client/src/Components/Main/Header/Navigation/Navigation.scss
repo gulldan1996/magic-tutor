@@ -9,7 +9,8 @@
     justify-content: space-evenly;
   }
 
-  &-item {
+  &-item,
+  &-item a {
     color: $white;
     transition: .7s;
     cursor: pointer;
@@ -24,5 +25,4 @@
       display: none;
     }
   }
-  
 }
